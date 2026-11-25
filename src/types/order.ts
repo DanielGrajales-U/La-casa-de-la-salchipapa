@@ -1,5 +1,19 @@
 export type CategoryId = 'salchipapas' | 'hamburguesas' | 'perros' | 'gaseosas';
 
+export interface RestaurantInfo {
+  name: string;
+  city: string;
+  address: string;
+  whatsapp: string;
+  instagram: string;
+  deliveryFee: number;
+  freeDeliveryThreshold: number;
+  hours: {
+    weekdays: string;
+    weekends: string;
+  };
+}
+
 export interface MenuItem {
   id: string;
   name: string;

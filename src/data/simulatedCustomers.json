@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Sebastián Restrepo",
+    "phone": "317 504 2219",
+    "deliveryType": "domicilio",
+    "address": "Calle 25 # 38-12",
+    "neighborhood": "Barrio Príncipe",
+    "reference": "Casa portón gris, al lado de la tienda",
+    "paymentMethod": "nequi"
+  },
+  {
+    "name": "Mariana Velásquez",
+    "phone": "314 889 1024",
+    "deliveryType": "recoger",
+    "address": "",
+    "neighborhood": "",
+    "reference": "Llega en 15 minutos",
+    "paymentMethod": "efectivo",
+    "cashPaidWith": 20000
+  },
+  {
+    "name": "Juan David Quintero",
+    "phone": "321 440 7781",
+    "deliveryType": "domicilio",
+    "address": "Carrera 30 # 19-08",
+    "neighborhood": "Barrio Rubén Cruz Vélez",
+    "reference": "Segundo piso, timbrar abajo",
+    "paymentMethod": "efectivo",
+    "cashPaidWith": 50000
+  },
+  {
+    "name": "Paola Andrea Mejía",
+    "phone": "310 623 9940",
+    "deliveryType": "domicilio",
+    "address": "Calle 29 # 22-51",
+    "neighborhood": "Barrio Alvernia",
+    "reference": "Frente al parque",
+    "paymentMethod": "daviplata"
+  }
+]
