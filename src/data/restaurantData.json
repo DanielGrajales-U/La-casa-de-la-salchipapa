@@ -1,0 +1,415 @@
+{
+  "restaurant": {
+    "name": "La Casa de la Salchipapa",
+    "city": "Tuluá, Valle del Cauca",
+    "address": "Sector Centro · Tuluá, Valle del Cauca",
+    "whatsapp": "+57 315 842 9104",
+    "instagram": "@lacasadelasalchipapa.tulua",
+    "deliveryFee": 3000,
+    "freeDeliveryThreshold": 25000,
+    "hours": {
+      "weekdays": "Lunes a Jueves: 5:00 PM – 11:00 PM",
+      "weekends": "Viernes a Domingo: 5:00 PM – 12:30 AM"
+    }
+  },
+  "categories": [
+    { "id": "salchipapas", "label": "Salchipapas" },
+    { "id": "hamburguesas", "label": "Hamburguesas" },
+    { "id": "perros", "label": "Perros" },
+    { "id": "gaseosas", "label": "Gaseosas" }
+  ],
+  "sauces": [
+    { "id": "salsa_casa", "name": "Salsa de la Casa" },
+    { "id": "rosada", "name": "Rosada" },
+    { "id": "ajo", "name": "Ajo" },
+    { "id": "pina", "name": "Piña" },
+    { "id": "bbq", "name": "BBQ" },
+    { "id": "tomate", "name": "Tomate" },
+    { "id": "mayonesa", "name": "Mayonesa" },
+    { "id": "mostaza", "name": "Mostaza" }
+  ],
+  "additions": [
+    { "id": "pollo", "name": "Pollo", "price": 1500 },
+    { "id": "queso", "name": "Queso", "price": 1000 },
+    { "id": "ripio", "name": "Ripio", "price": 1000 },
+    { "id": "tocineta", "name": "Tocineta", "price": 1000 },
+    { "id": "maicitos", "name": "Maicitos", "price": 1000 },
+    { "id": "chorizo", "name": "Chorizo", "price": 1500 },
+    { "id": "salchicha", "name": "Salchicha", "price": 2500 },
+    { "id": "papa", "name": "Papa", "price": 3000 }
+  ],
+  "menuItems": [
+    {
+      "id": "salchipapa-tradicional",
+      "name": "Salchipapa Tradicional",
+      "category": "salchipapas",
+      "price": 5500,
+      "description": "Salchichas, papas a la francesa crocantes y salsas a tu elección.",
+      "servings": "1 persona",
+      "image": "/src/assets/images/dish_salchipapa_yumbo_1795635658854.jpg",
+      "featured": false,
+      "supportsCustomization": true
+    },
+    {
+      "id": "salchipapa-gratinada",
+      "name": "Salchipapa Gratinada",
+      "category": "salchipapas",
+      "price": 6500,
+      "description": "Salchichas, papas crocantes, salsas de la casa y doble porción de queso fundido.",
+      "servings": "1 persona",
+      "image": "/src/assets/images/dish_salchipapa_yumbo_1795635658854.jpg",
+      "featured": false,
+      "supportsCustomization": true
+    },
+    {
+      "id": "salchipapa-especial",
+      "name": "Salchipapa Especial",
+      "category": "salchipapas",
+      "price": 7500,
+      "description": "Salchichas, papas, salsas, doble queso gratinado y tocineta crocante.",
+      "servings": "1 persona",
+      "image": "/src/assets/images/dish_salchipapa_yumbo_1795635658854.jpg",
+      "featured": false,
+      "supportsCustomization": true
+    },
+    {
+      "id": "salchipapa-tradicional-doble",
+      "name": "Salchipapa Tradicional Doble",
+      "category": "salchipapas",
+      "price": 8000,
+      "description": "Doble porción de salchichas, doble papas a la francesa y salsas a elección.",
+      "servings": "1–2 personas",
+      "image": "/src/assets/images/dish_salchipapa_yumbo_1795635658854.jpg",
+      "featured": false,
+      "supportsCustomization": true
+    },
+    {
+      "id": "super-salchipapa",
+      "name": "Súper Salchipapa",
+      "category": "salchipapas",
+      "price": 10000,
+      "description": "Porción generosa de salchichas, papas, salsas, queso fundido y tocineta ahumada.",
+      "servings": "1–2 personas",
+      "image": "/src/assets/images/dish_salchipapa_yumbo_1795635658854.jpg",
+      "featured": false,
+      "supportsCustomization": true
+    },
+    {
+      "id": "salchipapa-yumbo",
+      "name": "Salchipapa Yumbo",
+      "category": "salchipapas",
+      "price": 17000,
+      "description": "Salchichas, papas, salsas, queso, tocineta, chorizo, ripio, maíz dulce y pollo desmechado.",
+      "servings": "Para 3 personas",
+      "image": "/src/assets/images/dish_salchipapa_yumbo_1795635658854.jpg",
+      "featured": true,
+      "supportsCustomization": true
+    },
+    {
+      "id": "hamburguesa-sencilla",
+      "name": "Hamburguesa Sencilla",
+      "category": "hamburguesas",
+      "price": 7500,
+      "description": "Pan artesanal, lechuga fresca, tomate, carne a la plancha, ripio, queso y salsas.",
+      "servings": "1 persona",
+      "image": "/src/assets/images/dish_hamburguesa_especial_1795635659785.jpg",
+      "featured": false,
+      "supportsCustomization": true
+    },
+    {
+      "id": "hamburguesa-especial",
+      "name": "Hamburguesa Especial",
+      "category": "hamburguesas",
+      "price": 9000,
+      "description": "Pan suave, lechuga, tomate, carne jugosa, ripio, doble queso fundido, salsas y tocineta.",
+      "servings": "1 persona",
+      "image": "/src/assets/images/dish_hamburguesa_especial_1795635659785.jpg",
+      "featured": true,
+      "supportsCustomization": true
+    },
+    {
+      "id": "perro-sencillo",
+      "name": "Perro Sencillo",
+      "category": "perros",
+      "price": 6500,
+      "description": "Pan caliente, salchicha americana, ripio de papa, queso fundido y salsas.",
+      "servings": "1 persona",
+      "image": "/src/assets/images/dish_perro_especial_1795635662238.jpg",
+      "featured": false,
+      "supportsCustomization": true
+    },
+    {
+      "id": "perro-especial",
+      "name": "Perro Especial",
+      "category": "perros",
+      "price": 8000,
+      "description": "Pan suave, salchicha, ripio crocante, queso gratinado, salsas de la casa y tocineta.",
+      "servings": "1 persona",
+      "image": "/src/assets/images/dish_perro_especial_1795635662238.jpg",
+      "featured": true,
+      "supportsCustomization": true
+    },
+    {
+      "id": "gaseosa-personal",
+      "name": "Gaseosa Personal",
+      "category": "gaseosas",
+      "price": 2500,
+      "description": "Bien fría. Consulta disponibilidad de sabor (Coca-Cola, Colombiana, Manzana o Premio).",
+      "servings": "350 ml",
+      "image": "/src/assets/images/dish_gaseosas_frias_1795635661856.jpg",
+      "featured": false,
+      "supportsCustomization": false
+    },
+    {
+      "id": "hit-personal",
+      "name": "Hit Personal",
+      "category": "gaseosas",
+      "price": 3500,
+      "description": "Jugo Hit frío sabores tropicales (Mango, Mora, Lulo o Frutas Tropicales).",
+      "servings": "500 ml",
+      "image": "/src/assets/images/dish_gaseosas_frias_1795635661856.jpg",
+      "featured": false,
+      "supportsCustomization": false
+    },
+    {
+      "id": "gaseosa-litro",
+      "name": "Gaseosa Litro",
+      "category": "gaseosas",
+      "price": 4500,
+      "description": "Tamaño ideal para compartir en pareja. Bien fría.",
+      "servings": "1 Litro",
+      "image": "/src/assets/images/dish_gaseosas_frias_1795635661856.jpg",
+      "featured": false,
+      "supportsCustomization": false
+    },
+    {
+      "id": "gaseosa-1-5",
+      "name": "Gaseosa 1.5 L",
+      "category": "gaseosas",
+      "price": 5500,
+      "description": "Formato familiar perfecto para acompañar la Salchipapa Yumbo.",
+      "servings": "1.5 Litros",
+      "image": "/src/assets/images/dish_gaseosas_frias_1795635661856.jpg",
+      "featured": false,
+      "supportsCustomization": false
+    },
+    {
+      "id": "hit-caja",
+      "name": "Hit Caja",
+      "category": "gaseosas",
+      "price": 5500,
+      "description": "Jugo Hit familiar en caja de 1 litro, servido frío.",
+      "servings": "1 Litro",
+      "image": "/src/assets/images/dish_gaseosas_frias_1795635661856.jpg",
+      "featured": false,
+      "supportsCustomization": false
+    }
+  ],
+  "initialOrders": [
+    {
+      "id": "ord-1045",
+      "orderNumber": "#LCS-1045",
+      "minutesAgo": 3,
+      "status": "nuevo",
+      "customer": {
+        "name": "Camilo Morales",
+        "phone": "316 492 8810",
+        "deliveryType": "domicilio",
+        "address": "Calle 27 # 34-18",
+        "neighborhood": "Barrio Sajonia",
+        "reference": "Casa esquinera reja negra, timbre 2",
+        "paymentMethod": "nequi"
+      },
+      "items": [
+        {
+          "cartItemId": "seed-1",
+          "menuItemId": "salchipapa-yumbo",
+          "name": "Salchipapa Yumbo",
+          "category": "salchipapas",
+          "basePrice": 17000,
+          "image": "/src/assets/images/dish_salchipapa_yumbo_1795635658854.jpg",
+          "quantity": 1,
+          "supportsCustomization": true,
+          "selectedSauces": ["Salsa de la Casa", "Rosada", "Ajo", "Piña"],
+          "saucesOnSide": false,
+          "selectedAdditions": [
+            { "id": "queso", "name": "Queso", "price": 1000 },
+            { "id": "tocineta", "name": "Tocineta", "price": 1000 }
+          ],
+          "note": "Bien gratinada por favor"
+        },
+        {
+          "cartItemId": "seed-2",
+          "menuItemId": "gaseosa-1-5",
+          "name": "Gaseosa 1.5 L",
+          "category": "gaseosas",
+          "basePrice": 5500,
+          "image": "/src/assets/images/dish_gaseosas_frias_1795635661856.jpg",
+          "quantity": 1,
+          "supportsCustomization": false,
+          "selectedSauces": [],
+          "saucesOnSide": false,
+          "selectedAdditions": [],
+          "note": "Coca-Cola bien fría"
+        }
+      ],
+      "subtotal": 24500,
+      "deliveryFee": 3000,
+      "total": 27500
+    },
+    {
+      "id": "ord-1044",
+      "orderNumber": "#LCS-1044",
+      "minutesAgo": 11,
+      "status": "en_cocina",
+      "customer": {
+        "name": "Valentina Ospina",
+        "phone": "320 715 3392",
+        "deliveryType": "domicilio",
+        "address": "Carrera 28 # 21-45",
+        "neighborhood": "Barrio Victoria",
+        "reference": "Edificio Mirador, portería",
+        "paymentMethod": "efectivo",
+        "cashPaidWith": 30000
+      },
+      "items": [
+        {
+          "cartItemId": "seed-3",
+          "menuItemId": "hamburguesa-especial",
+          "name": "Hamburguesa Especial",
+          "category": "hamburguesas",
+          "basePrice": 9000,
+          "image": "/src/assets/images/dish_hamburguesa_especial_1795635659785.jpg",
+          "quantity": 2,
+          "supportsCustomization": true,
+          "selectedSauces": ["Salsa de la Casa", "BBQ", "Ajo"],
+          "saucesOnSide": true,
+          "selectedAdditions": [
+            { "id": "maicitos", "name": "Maicitos", "price": 1000 }
+          ],
+          "note": "Una sin tomate"
+        },
+        {
+          "cartItemId": "seed-4",
+          "menuItemId": "hit-personal",
+          "name": "Hit Personal",
+          "category": "gaseosas",
+          "basePrice": 3500,
+          "image": "/src/assets/images/dish_gaseosas_frias_1795635661856.jpg",
+          "quantity": 2,
+          "supportsCustomization": false,
+          "selectedSauces": [],
+          "saucesOnSide": false,
+          "selectedAdditions": [],
+          "note": "Mora y mango"
+        }
+      ],
+      "subtotal": 27000,
+      "deliveryFee": 0,
+      "total": 27000
+    },
+    {
+      "id": "ord-1043",
+      "orderNumber": "#LCS-1043",
+      "minutesAgo": 19,
+      "status": "listo",
+      "customer": {
+        "name": "Andrés Felipe Giraldo",
+        "phone": "312 608 4419",
+        "deliveryType": "recoger",
+        "address": "",
+        "neighborhood": "",
+        "reference": "Pasa en moto en 10 min",
+        "paymentMethod": "daviplata"
+      },
+      "items": [
+        {
+          "cartItemId": "seed-5",
+          "menuItemId": "perro-especial",
+          "name": "Perro Especial",
+          "category": "perros",
+          "basePrice": 8000,
+          "image": "/src/assets/images/dish_perro_especial_1795635662238.jpg",
+          "quantity": 2,
+          "supportsCustomization": true,
+          "selectedSauces": ["Rosada", "Piña", "Mostaza"],
+          "saucesOnSide": false,
+          "selectedAdditions": [
+            { "id": "pollo", "name": "Pollo", "price": 1500 }
+          ],
+          "note": ""
+        },
+        {
+          "cartItemId": "seed-6",
+          "menuItemId": "salchipapa-especial",
+          "name": "Salchipapa Especial",
+          "category": "salchipapas",
+          "basePrice": 7500,
+          "image": "/src/assets/images/dish_salchipapa_yumbo_1795635658854.jpg",
+          "quantity": 1,
+          "supportsCustomization": true,
+          "selectedSauces": ["Salsa de la Casa", "Ajo"],
+          "saucesOnSide": false,
+          "selectedAdditions": [
+            { "id": "chorizo", "name": "Chorizo", "price": 1500 }
+          ],
+          "note": "Papas bien crocantes"
+        }
+      ],
+      "subtotal": 28000,
+      "deliveryFee": 0,
+      "total": 28000
+    },
+    {
+      "id": "ord-1042",
+      "orderNumber": "#LCS-1042",
+      "minutesAgo": 42,
+      "status": "entregado",
+      "customer": {
+        "name": "Laura Sofía Cardona",
+        "phone": "318 921 0043",
+        "deliveryType": "domicilio",
+        "address": "Calle 32 # 24-11",
+        "neighborhood": "Barrio Salesianos",
+        "reference": "Frente a la panadería",
+        "paymentMethod": "efectivo",
+        "cashPaidWith": 20000
+      },
+      "items": [
+        {
+          "cartItemId": "seed-7",
+          "menuItemId": "super-salchipapa",
+          "name": "Súper Salchipapa",
+          "category": "salchipapas",
+          "basePrice": 10000,
+          "image": "/src/assets/images/dish_salchipapa_yumbo_1795635658854.jpg",
+          "quantity": 1,
+          "supportsCustomization": true,
+          "selectedSauces": ["Rosada", "Ajo", "Tomate"],
+          "saucesOnSide": false,
+          "selectedAdditions": [
+            { "id": "ripio", "name": "Ripio", "price": 1000 }
+          ],
+          "note": ""
+        },
+        {
+          "cartItemId": "seed-8",
+          "menuItemId": "gaseosa-litro",
+          "name": "Gaseosa Litro",
+          "category": "gaseosas",
+          "basePrice": 4500,
+          "image": "/src/assets/images/dish_gaseosas_frias_1795635661856.jpg",
+          "quantity": 1,
+          "supportsCustomization": false,
+          "selectedSauces": [],
+          "saucesOnSide": false,
+          "selectedAdditions": [],
+          "note": "Colombiana"
+        }
+      ],
+      "subtotal": 15500,
+      "deliveryFee": 3000,
+      "total": 18500
+    }
+  ]
+}

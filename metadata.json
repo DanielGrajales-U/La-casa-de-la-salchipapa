@@ -1,0 +1,6 @@
+{
+  "name": "La Casa de la Salchipapa",
+  "description": "Plataforma de pedidos en línea y central de cocina para La Casa de la Salchipapa en Tuluá, Valle del Cauca.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
